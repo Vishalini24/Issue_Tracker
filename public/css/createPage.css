@@ -6,7 +6,7 @@
 .container #createProjectForm input[type="text"]{
     padding:1rem 2.5rem;
     width:350px;
-    font-size:1.5rem;
+    font-size:1.2rem;
     transition: all .2s ease-in-out;
 }
 .container #createProjectForm input[type="text"]:focus{
@@ -14,7 +14,7 @@
 }
 .container #createProjectForm input[type="submit"]{
     padding:1rem 2.5rem;
-    font-size:1.5rem;
+    font-size:1.2rem;
     margin-top:1rem;
     background-color:#a45ca4;
     transition: all .2s ease-in-out;
@@ -26,7 +26,7 @@
 .container #createProjectForm textarea{
     margin:1rem 0;
     padding:1rem 2.5rem;
-    font-size:1.5rem;
+    font-size:1.2rem;
     transition: all .2s ease-in-out;
 }
 .container #createProjectForm textarea:focus{
