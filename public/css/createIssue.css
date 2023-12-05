@@ -3,7 +3,7 @@
 }
 
 .container #labelDropdown{
-    font-size:1rem;
+    font-size:0.5rem;
 }
 .container select{
     width:50%;
@@ -17,7 +17,7 @@
     justify-content: space-between;
 }
 .container select option{
-    font-size:1rem;
+    font-size:0.5rem;
     padding:.5rem 0;
 }
 .container select option:hover{
@@ -38,10 +38,10 @@
     
 } */
 .createIssueContainer .projectName{
-    font-size:1.1rem;
+    font-size:1rem;
 }
 .createIssueContainer .projectName .name{
-    font-size:1.5rem;
+    font-size:1.2rem;
     color:darkviolet;
     font-weight:bold;
 }
@@ -56,7 +56,6 @@
 }
 .tooltipCIProjectDetails{
     width: 120px;
-    /* left: 30px; */
     right:-15px;
     top: -50px;
     background: #a45ca4;
