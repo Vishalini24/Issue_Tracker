@@ -1,10 +1,12 @@
 
 const mongoose = require("mongoose")
 
+const url = process.env.DB_URL;
+
 // Making Connecting with mongoDB
 const connectDb = async ()=>{
     try{
-        const connect = await mongoose.connect("mongodb://127.0.0.1:27017/issueTracker")
+        const connect = await mongoose.connect(url)
         console.log("Database Connected: ", connect.connection.name)
     }
     catch(err){
