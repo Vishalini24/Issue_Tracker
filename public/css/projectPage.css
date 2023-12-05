@@ -24,33 +24,33 @@
 }
 
 .projectDetailSection .projectName {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 500;
     color: darkviolet;
     font-weight: bold;
 }
 
 .projectDetailSection .projectDesc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 1rem 0;
 }
 
 .projectDetailSection .projectAuthor {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     display: inline-block;
 }
 
 .projectDetailSection .projectAuthor .name {
     color: darkviolet;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .projectDetailSection .pdCreateIssueLink{
     background-color: #a45ca4;
     text-decoration:none;
-    font-size:1.5rem;
+    font-size:1.2rem;
     padding:.5rem 7rem;
     border:2px solid black;
     transition: all .2s ease-in-out;
@@ -75,7 +75,7 @@
 }
 
 .head {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -99,12 +99,12 @@ input[type="checkbox"] {
     place-content: center;
 }
 .labelCheckbox{
-    font-size:1.1rem;
+    font-size:1rem;
     margin-left:.2rem;
 }
 .filterButton, .searchButton{
     padding:.4rem 1rem;
-    font-size:1.3rem;
+    font-size:1rem;
     margin-left:1rem;
     background-color: #a45ca4;
     cursor: pointer;
@@ -115,7 +115,7 @@ input[type="checkbox"] {
 }
 .searchBar{
     padding:.4rem 1rem;
-    font-size:1.3rem;
+    font-size:1rem;
     margin-left:1rem;
     transition: all .2s ease-in-out;
 }
@@ -153,12 +153,12 @@ input[type="checkbox"]:checked::before {
     margin:.5rem 0;
 }
 .bugSection .title{
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight:bold;
     color:blueviolet;
 }
 .bugSection .title .name{
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-weight:bold;
 }
 .bugSection .description{
@@ -167,11 +167,11 @@ input[type="checkbox"]:checked::before {
     font-weight:bold;
 }
 .bugSection .label{
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight:bold;
 }
 .bugSection .author{
-    font-size:1.2rem;
+    font-size:1rem;
     margin:.5rem 0;
     font-weight:bold;
 }
@@ -198,18 +198,18 @@ input[type="checkbox"]:checked::before {
         width: 60%;
     }
     .projectDetailSection .pdCreateIssueLink{
-        font-size:1.3rem;
+        font-size:1rem;
         padding:.4rem 3rem;
     }
     .projectDetailSection .projectName {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .projectDetailSection .projectDesc {
         font-size: 1.05rem;
         margin: .7rem 0;
     }
     .projectDetailSection .projectAuthor .name {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 @media screen and (max-width:1132px) {
@@ -218,7 +218,7 @@ input[type="checkbox"]:checked::before {
     }
     
     .head {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     input[type="checkbox"] {
@@ -228,19 +228,19 @@ input[type="checkbox"]:checked::before {
         border-radius: 3px;
     }
     .labelCheckbox{
-        font-size:1.1rem;
+        font-size:1rem;
         margin-left:.2rem;
     }
     .filterButton, .searchButton{
         padding:.3rem .85rem;
-        font-size:1.2rem;
+        font-size:1rem;
     }
     .filterButton:hover, .searchButton:hover{
         border-radius:1.3rem;
     }
     .searchBar{
         padding:.35rem .8rem;
-        font-size:1.2rem;
+        font-size:1rem;
     }
     .searchBar:focus{
         border-radius:1.5rem;
@@ -259,7 +259,7 @@ input[type="checkbox"]:checked::before {
         font-size:1.05rem;
     }
     .bugSection .title .name{
-        font-size:1.2rem;
+        font-size:1rem;
     }
     .bugSection .description{
         font-size:1rem;
